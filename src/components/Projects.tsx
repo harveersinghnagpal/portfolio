@@ -11,7 +11,7 @@ export default function Projects() {
             description: "A document-aware chatbot that allows users to upload PDFs, HTML, or text files and ask questions related to the content. Uses a RAG pipeline to retrieve relevant chunks and generate answers with page references.",
             techStack: ["Python", "Flask", "LangChain", "FAISS"],
             features: "Document upload support, Chunk embedding using vector database, Answer generation with page citations.",
-            githubUrl: "#",
+            githubUrl: "https://github.com/harveersinghnagpal/bookRAG",
             demoUrl: "",
             image: "/RAG Based Document Chatbot.png"
         },
@@ -51,7 +51,7 @@ export default function Projects() {
             githubUrl: "https://github.com/harveersinghnagpal/FinTrackBot",
             demoUrl: "",
             status: "",
-            image: ""
+            image: "/FinTechBot.png"
         },
         {
             title: "N-Queens Backtracking Visualizer",
