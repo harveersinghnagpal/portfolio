@@ -13,13 +13,14 @@ export default function ProblemSolving() {
             color: "text-yellow-500",
             border: "hover:border-yellow-500/50",
             image: "/leetcode profile.png",
+            url: "https://leetcode.com/u/harveersn/",
             stats: [
-                { label: "Problems Solved", value: "320+" },
-                { label: "Medium", value: "200+" },
-                { label: "Hard", value: "35+" },
-                { label: "Easy", value: "60+" },
-                { label: "Rating", value: "~1565" },
-                { label: "Contests", value: "4" }
+                { label: "Problems Solved", value: "330+" },
+                { label: "Medium", value: "220+" },
+                { label: "Hard", value: "40+" },
+                { label: "Easy", value: "75+" },
+                { label: "Rating", value: "~1544" },
+                { label: "Contests", value: "6" }
             ]
         },
         {
@@ -28,6 +29,7 @@ export default function ProblemSolving() {
             color: "text-red-500",
             border: "hover:border-red-500/50",
             image: "/codeforces profile.png",
+            url: "https://codeforces.com/profile/harveersinghnagpal",
             stats: [
                 { label: "Rating", value: "548" },
                 { label: "Contests", value: "2" }
@@ -39,6 +41,7 @@ export default function ProblemSolving() {
             color: "text-green-500",
             border: "hover:border-green-500/50",
             image: "/geeksforgeeks profile.png",
+            url: "https://www.geeksforgeeks.org/profile/harveersinlxeg",
             stats: [
                 { label: "Problems Solved", value: "65" }
             ]
@@ -92,7 +95,7 @@ export default function ProblemSolving() {
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent pointer-events-none"></div>
                             </div>
 
-                            <div className="grid grid-cols-2 gap-3 mt-auto">
+                            <div className="grid grid-cols-2 gap-3 mt-auto mb-6">
                                 {platform.stats.map((stat) => (
                                     <div key={stat.label} className="bg-black/30 rounded p-3 border border-white/5">
                                         <div className="text-xs text-gray-400 mb-1">{stat.label}</div>
@@ -100,6 +103,15 @@ export default function ProblemSolving() {
                                     </div>
                                 ))}
                             </div>
+
+                            <a 
+                                href={platform.url} 
+                                target="_blank" 
+                                rel="noopener noreferrer"
+                                className="w-full py-2.5 rounded-lg border border-white/10 text-center text-sm font-medium text-gray-300 hover:bg-white/5 hover:text-white hover:border-white/20 transition-all"
+                            >
+                                View Profile
+                            </a>
                         </motion.div>
                     ))}
                 </div>

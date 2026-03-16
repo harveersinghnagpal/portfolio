@@ -20,7 +20,7 @@ export default function Projects() {
             description: "An AI debugging assistant built using a multi-agent architecture connected to an MCP server to analyze buggy code and generate explanations for fixes.",
             techStack: ["Python", "LLM APIs", "MCP Server", "AI Agents"],
             features: "Code Parser Agent, Validator Agent, Explanation Agent.",
-            githubUrl: "#",
+            githubUrl: "https://github.com/harveersinghnagpal/ai-debugger-mcp",
             demoUrl: "",
             image: "/Agentic AI Debugging System (MCP).png"
         },
@@ -29,7 +29,7 @@ export default function Projects() {
             description: "A full stack application that helps users track expenses, set budgets, and visualize financial data through interactive dashboards.",
             techStack: ["React", "Node.js", "MongoDB"],
             features: "User auth, Expense tracking, Category analytics, Budget monitoring. Planned: AI chatbot via RAG.",
-            githubUrl: "#",
+            githubUrl: "https://github.com/harveersinghnagpal/expense-mate",
             demoUrl: "",
             status: "",
             image: "/Expense Management System.png"
@@ -39,7 +39,7 @@ export default function Projects() {
             description: "A machine learning system that predicts stock prices using multiple regression models and financial indicators with R² score up to 0.68.",
             techStack: ["Python", "Flask", "React", "Scikit Learn"],
             features: "Linear Regression, Random Forest, XGBoost. 20+ tech indicators. Interactive charts.",
-            githubUrl: "#",
+            githubUrl: "https://github.com/harveersinghnagpal/stock-pred",
             demoUrl: "",
             image: "/Stock Market Price Prediction.png"
         },
@@ -48,7 +48,7 @@ export default function Projects() {
             description: "A finance focused chatbot that answers only finance related queries using a controlled system prompt.",
             techStack: ["Python", "Flask", "HTML", "CSS", "JavaScript"],
             features: "Finance only responses, Budget advice, EMI calculator.",
-            githubUrl: "#",
+            githubUrl: "https://github.com/harveersinghnagpal/FinTrackBot",
             demoUrl: "",
             status: "",
             image: ""
@@ -58,8 +58,8 @@ export default function Projects() {
             description: "An interactive visualization of the N-Queens backtracking algorithm showing all valid solutions through smooth animations.",
             techStack: ["HTML", "CSS", "JavaScript"],
             features: "",
-            githubUrl: "#",
-            demoUrl: "#",
+            githubUrl: "https://github.com/harveersinghnagpal/nqueens-visualizer",
+            demoUrl: "https://backtracking-nqueens.netlify.app/",
             status: "Live Demo Available",
             image: "/N-Queens Backtracking Visualizer.png"
         },
